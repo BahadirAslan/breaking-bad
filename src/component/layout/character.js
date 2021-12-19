@@ -29,7 +29,7 @@ const CharacterPage = ({ characterId }) => {
             width={100}
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/1024px-Breaking_Bad_logo.svg.png"
           ></img>
-          <a href="http://localhost:3000">
+          <a href="https://breaking-bad-kappa.vercel.app">
             <img
               height={30}
               width={30}
