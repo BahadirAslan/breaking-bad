@@ -11,7 +11,7 @@ function App(props) {
   }
   
   const showCharacterPage = () => {
-    if (window.location.pathname !== "/") {
+    if (window.location.pathname) {
       return <CharacterPage characterId={window.location.pathname} />
     }
   }
