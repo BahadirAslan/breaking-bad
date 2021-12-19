@@ -28,7 +28,7 @@ const Mainpage = () => {
             width={100}
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/1024px-Breaking_Bad_logo.svg.png"
           ></img>
-          <a href="https://boring-borg-b9fca6.netlify.app">
+          <a href="https://breaking-bad-kappa.vercel.app">
           <img
             height={30}
             width={30}
