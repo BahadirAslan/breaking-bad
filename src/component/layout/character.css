@@ -1,0 +1,80 @@
+.body-text {
+    color: #212529;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.character-title {
+    background: linear-gradient(to right, greenyellow, transparent);
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.character-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    height: fit-content;
+    padding: 15px;
+    margin-top: 15px;
+    width: fit-content;
+    align-self: center;
+}
+
+.body-wrapper {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 20px;
+}
+
+.container {
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://listelist.com/wp-content/uploads/2019/09/a.jpg");
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-detail {
+        position: relative;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 0.25rem;
+        width: 47%;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 10px;
+        display: flex;
+        align-self: center;
+}
+
+.quote-title {
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding-bottom: 10px;
+}

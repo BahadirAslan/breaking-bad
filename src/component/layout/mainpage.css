@@ -1,0 +1,47 @@
+.header {
+    background: linear-gradient(to right, yellow,transparent,greenyellow);
+    padding: 10px;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://listelist.com/wp-content/uploads/2019/09/a.jpg");
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow: scroll;
+}
+
+.search {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.search > .searchWrapper {
+    background : linear-gradient(to right, transparent, white, white);
+    padding : 1em;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+.searchWrapper > .inputArea {
+    width: 40%;
+}
+.filterButton {
+    margin-left: 10px;
+}
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
