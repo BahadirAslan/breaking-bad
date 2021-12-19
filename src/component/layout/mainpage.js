@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from "react";
 import Card from "./card";
 import "./mainpage.css";
@@ -27,7 +28,7 @@ const Mainpage = () => {
             width={100}
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/1024px-Breaking_Bad_logo.svg.png"
           ></img>
-          <a href="http://localhost:3000">
+          <a href="https://boring-borg-b9fca6.netlify.app">
           <img
             height={30}
             width={30}

@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import "./character.css";
 
@@ -5,7 +7,6 @@ const CharacterPage = ({ characterId }) => {
   const [character, setCharacter] = useState({});
   const [quotes, setQuotes] = useState([]);
 
-  console.log(characterId);
   useEffect(() => {
     fetch(`https://www.breakingbadapi.com/api/characters${characterId}`)
       .then((response) => response.json())
